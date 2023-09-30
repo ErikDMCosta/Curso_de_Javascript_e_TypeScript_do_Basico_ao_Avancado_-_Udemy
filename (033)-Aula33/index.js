@@ -1,9 +1,9 @@
 const pessoa = {
-  nome: 'Luiz',
-  sobrenome: 'Miranda',
+  nome: 'Érik',
+  sobrenome: ' de Moraes Costa',
   idade: 30,
   endereco: {
-    rua: 'Av Brasil',
+    rua: 'Santo Antão',
     numero: 320
   }
 };

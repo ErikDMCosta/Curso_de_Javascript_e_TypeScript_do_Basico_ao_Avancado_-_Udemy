@@ -5,8 +5,8 @@ null (bigint, symbol) - Valores copiados
 Referência (mutável) - array, object, function - Passados por referência
 */
 const a = {
-  nome: 'Luiz',
-  sobrenome: 'Otávio'
+  nome: 'Érik',
+  sobrenome: 'Érik'
 };
 const b = a;
 

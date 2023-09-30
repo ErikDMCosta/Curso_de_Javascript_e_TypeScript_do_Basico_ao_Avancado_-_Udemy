@@ -3,12 +3,12 @@ const verdadeira = true;
 // Let tem escopo de bloco { ... bloco }
 // Var só tem escopo de função
 
-// let nome = 'Luiz'; // criando
-// var nome2 = 'Luiz'; // criando
+// let nome = 'Érik'; // criando
+// var nome2 = 'Érik'; // criando
 
 
 // if (verdadeira) {
-//   let nome = 'Otávio'; // criando
+//   let nome = 'Érik'; // criando
 //   var nome2 = 'Rogério'; // redeclarando
 
 //   if (verdadeira) {
@@ -23,8 +23,8 @@ const verdadeira = true;
 // function falaOi () {
 
 //   if (verdadeira) {
-//     let nome = 'Luiz';
-//     var sobrenome = 'Miranda';
+//     let nome = 'Érik';
+//     var sobrenome = ' de Moraes Costa';
 //   }
 
 //   console.log(sobrenome);
@@ -33,5 +33,5 @@ const verdadeira = true;
 
 // falaOi();
 
-let sobrenome = 'Miranda';
+let sobrenome = ' de Moraes Costa';
 console.log(sobrenome);

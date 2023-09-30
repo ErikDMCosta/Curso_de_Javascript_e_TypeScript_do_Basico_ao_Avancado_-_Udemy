@@ -1,8 +1,8 @@
 // For in -> lê os índices ou chaves do objeto
 //                 0       1      2
 const pessoa = {
-  nome: 'Luiz',
-  sobrenome: 'Otávio',
+  nome: 'Érik',
+  sobrenome: 'Érik',
   idade: 30
 };
 
