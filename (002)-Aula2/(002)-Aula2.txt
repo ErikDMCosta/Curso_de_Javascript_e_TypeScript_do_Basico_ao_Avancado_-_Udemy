@@ -1,0 +1,1 @@
+2. Instalando NodeJS, VSCode e Chrome no Linux (Ubuntu 18.04)

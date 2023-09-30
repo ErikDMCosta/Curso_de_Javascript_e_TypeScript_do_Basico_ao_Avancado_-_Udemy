@@ -1,0 +1,1 @@
+1. Instalando NodeJS, VSCode e Chrome no Windows
