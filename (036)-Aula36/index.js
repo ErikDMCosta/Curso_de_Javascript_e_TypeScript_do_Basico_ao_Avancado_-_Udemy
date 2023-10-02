@@ -3,7 +3,7 @@
 const pessoa = {
   nome: 'Érik',
   sobrenome: 'Érik',
-  idade: 30
+  idade: 23
 };
 
 for (let chave in pessoa) {

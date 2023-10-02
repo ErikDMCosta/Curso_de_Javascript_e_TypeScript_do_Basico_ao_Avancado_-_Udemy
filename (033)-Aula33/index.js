@@ -1,7 +1,7 @@
 const pessoa = {
   nome: 'Érik',
   sobrenome: ' de Moraes Costa',
-  idade: 30,
+  idade: 23,
   endereco: {
     rua: 'Santo Antão',
     numero: 320

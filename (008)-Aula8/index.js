@@ -5,14 +5,14 @@ tem 1.8 de altura e seu IMC é de 25.925925925925924
 */
 const nome = 'Érik';
 const sobrenome = ' de Moraes Costa';
-const idade = 30;
+const idade = 23;
 const peso = 84;
 const alturaEmM = 1.80; // Corrigido para metros (ao invés de cm)
 let indiceMassaCorporal; // peso / (altura * altura)
 let anoNascimento;
 
 indiceMassaCorporal = peso / (alturaEmM * alturaEmM);
-anoNascimento = 2019 - idade;
+anoNascimento = 2023 - idade;
 
 
 // template strings
