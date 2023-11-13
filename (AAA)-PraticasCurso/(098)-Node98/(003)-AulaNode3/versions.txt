@@ -1,0 +1,35 @@
+Ciclo de vida de lançamento de um software
+
+O ciclo de vida de lançamento de um software pode ser dividido em três fases principais:
+
+Alpha
+A versão alpha é a primeira versão a ser testada pelos times de desenvolvimento. Ela normalmente não é publicada, ou seja, os usuários ainda não têm acesso às funcionalidades do software. Nesta fase, o foco dos testes é a estabilidade e a correção de bugs.
+
+Beta
+A versão beta é a primeira versão pública do software. Ela é disponibilizada para um grupo de usuários selecionados, que têm a oportunidade de testar o software e fornecer feedback aos desenvolvedores. Nesta fase, o foco dos testes é a usabilidade e a experiência do usuário.
+
+Release Candidate (RC)
+A versão RC é a versão final do software, que está pronta para ser lançada para o público em geral. Ela é testada extensivamente pelos desenvolvedores e pelo grupo de usuários beta, a fim de garantir que não haja nenhum problema grave.
+
+Versões de software
+
+As versões de software são geralmente identificadas por três números:
+
+  2.    1.    0
+Major Minor Patch
+
+  2.    1.    1
+  2.    2.    0
+  3.    0.    0
+
+Major (principal): representa mudanças significativas no software, como a adição de novas funcionalidades ou a alteração de funcionalidades existentes.
+
+Minor (menor): representa mudanças menores no software, como a correção de bugs ou a melhoria de desempenho.
+
+Patch (correção): representa pequenas alterações no software, como a correção de erros de impressão ou a alteração de pequenos detalhes de interface.
+
+Exemplos:
+
+Versão 1.0.0: versão inicial do software, com funcionalidades básicas.
+Versão 2.0.0: versão com novas funcionalidades e alterações significativas.
+Versão 2.1.0: versão com pequenas alterações e correções de bugs.
