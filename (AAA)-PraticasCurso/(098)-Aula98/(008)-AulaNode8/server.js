@@ -14,12 +14,17 @@ app.get('/', (req, res) => {
   res.send(`
   <form action="/" method="POST">
     Nome do cliente: <input type="text" id="nome" name="qualquercoisa">
+    Nome do cliente: <input type="text" id="nome" name="aquioutrocampo">
     <button>Olá Mundo!</button>
   </form>
   `);
 });
 
 app.get('/testes/:idUsuarios?/:parametro?', (req, res) => {
+  // /profile/3
+  // /profile/?chave1=valor1&?chave2=valor2&?chave3=valor3
+  //
+
   console.log(req.params);
   console.log(req.query);
   res.send(req.query.facebookprofile);
