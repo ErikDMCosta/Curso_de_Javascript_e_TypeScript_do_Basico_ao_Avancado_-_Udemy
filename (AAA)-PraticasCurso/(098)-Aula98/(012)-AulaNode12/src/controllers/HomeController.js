@@ -1,15 +1,7 @@
-exports.homePage = (req, res) => {
-
-  const pageContent = {
-    title: "Página inicial",
-    description: "Está é a página inicial"
-  }
-
-  res.render('index', pageContent);
-  return;
+exports.paginaInicial = (req, res) => {
+  res.render("index")
 };
 
-exports.trataPost = (req, res) => {
-  res.send(`Recebi este dado: ${req.body.dado}`);
-  return;
+exports.tratarPost = (req, res) => {
+  res.send("Ei, sou sua nova rota de POST.");
 };
