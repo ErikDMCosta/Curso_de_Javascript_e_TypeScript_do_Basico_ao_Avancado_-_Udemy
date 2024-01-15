@@ -1,12 +1,15 @@
-const path = require('path'); // CommonJS
+const path = require('path'); 
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
+  //mode: 'production',
   entry: './frontend/main.js',
+
   output: {
     path: path.resolve(__dirname, 'public', 'assets', 'js'),
     filename: 'bundle.js'
   },
+
   module: {
     rules: [{
       exclude: /node_modules/,
@@ -22,5 +25,6 @@ module.exports = {
       use: ['style-loader', 'css-loader']
     }]
   },
+
   devtool: 'source-map'
 };
