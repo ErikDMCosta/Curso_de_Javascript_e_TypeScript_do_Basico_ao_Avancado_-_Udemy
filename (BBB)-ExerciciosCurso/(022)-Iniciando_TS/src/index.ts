@@ -1,4 +1,4 @@
-const nome = 'Erik';
-const sobrenome = 'Costa';
+const nomes = 'Erik';
+const sobrenomes = 'Costa';
 
 console.log('Olá');
