@@ -1,9 +1,9 @@
 export class Empresa {
-  // public nome: String = 'Erik';
-  // public readonly nome: String = 'Erik';
-  public readonly nome: String; // public não nescessário
+  // public nome: string = 'Erik';
+  // public readonly nome: string = 'Erik';
+  public readonly nome: string; // public não nescessário
   private readonly colaboradores: Colaborador[] = [];
-  protected readonly cnpj: String;
+  protected readonly cnpj: string;
 
   constructor(nome: string, cnpj: string) {
     this.nome = nome;
@@ -22,8 +22,8 @@ export class Empresa {
 
 export class Colaborador {
   constructor(
-    public readonly nome: String,
-    public readonly sobrenome: String,
+    public readonly nome: string,
+    public readonly sobrenome: string,
   ) {}
 }
 
