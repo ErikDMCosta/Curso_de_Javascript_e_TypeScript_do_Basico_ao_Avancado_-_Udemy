@@ -24,3 +24,5 @@ namespace MeuNameSpace {
 // console.log(MeuNameSpace.OutroNameSpace.nomeDoOutroNameSpace);
 
 // export default 1;
+
+const ConstDoNameSpace = 'Valor da const do Namespace'

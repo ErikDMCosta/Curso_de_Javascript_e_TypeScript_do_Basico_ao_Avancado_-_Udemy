@@ -25,6 +25,9 @@ var MeuNameSpace;
 // console.log(MeuNameSpace.nomeDoNameSpace);
 // console.log(MeuNameSpace.OutroNameSpace.nomeDoOutroNameSpace);
 // export default 1;
+var ConstDoNameSpace = 'Valor da const do Namespace';
 /* eslint-disable @typescript-eslint/triple-slash-reference */
 /// <reference path="modulo/module.ts" />
+// array
 console.log(MeuNameSpace.nomeDoNameSpace);
+console.log(ConstDoNameSpace);
