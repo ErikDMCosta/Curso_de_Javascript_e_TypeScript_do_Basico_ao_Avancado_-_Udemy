@@ -1,7 +1,10 @@
 import { CartItem } from '../interfaces/cart-items';
+import { Discount } from './discount';
 
 export class ShoppingCart {
   private readonly _items: { name: string; price: number }[] = [];
+
+  constructor(private readonly discount: Discount) {}
 
   addItem(item: CartItem): void {
     this._items.push(item);
@@ -19,6 +22,12 @@ export class ShoppingCart {
     return +this._items
       .reduce((total, next) => total + next.price, 0)
       .toFixed(2);
+  }
+
+  // totalWithDiscount(discount: number): number {
+  totalWithDiscount(): number {
+    // return this.total() - this.total() * discount;
+    return this.discount.calculate(this.total());
   }
 
   isEmpty(): boolean {
