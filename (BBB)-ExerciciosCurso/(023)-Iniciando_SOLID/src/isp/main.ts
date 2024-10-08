@@ -11,6 +11,7 @@ import { Product } from './classes/product';
 // import { FiftyPercentDiscount, TenPercentDiscount } from './classes/discount';
 // import { NoDiscount, TenPercentDiscount } from './classes/discount';
 import { NoDiscount } from './classes/discount';
+import { EnterpriseCustumer, IndividualCustumer } from './classes/custumer';
 // import { FiftyPercentDiscount } from './classes/discount';
 
 // const fiftyPercentDiscount = new FiftyPercentDiscount();
@@ -21,7 +22,26 @@ const noDiscount = new NoDiscount();
 const shoppingCart = new ShoppingCart(noDiscount);
 const messaging = new Messaging();
 const persistency = new Persistency();
-const order = new Order(shoppingCart, messaging, persistency);
+
+const individualCustomer = new IndividualCustumer(
+  'Erik',
+  'Costa',
+  '111.111.111-11',
+);
+
+const enterpriseCustumer = new EnterpriseCustumer(
+  'Empresa Gigante',
+  '11.111.111/1111-11',
+);
+
+// const order = new Order(shoppingCart, messaging, persistency);
+const order = new Order(
+  shoppingCart,
+  messaging,
+  persistency,
+  // individualCustomer,
+  enterpriseCustumer,
+);
 
 // shoppingCart.addItem({ name: 'Camisa', price: 49.91 });
 shoppingCart.addItem({ name: 'Caderno', price: 9.9123 });

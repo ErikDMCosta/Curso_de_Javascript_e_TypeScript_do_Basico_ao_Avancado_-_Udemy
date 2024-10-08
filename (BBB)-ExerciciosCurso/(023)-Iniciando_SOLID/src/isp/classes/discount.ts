@@ -4,8 +4,8 @@ export abstract class Discount {
 
   calculate(price: number): unknown {
     // return price - price * (this.discount * 100);
-    // return price - price * this.discount;
-    throw new Error('Not Implemented Error');
+    // throw new Error('Not Implemented Error');
+    return price - price * this.discount;
   }
 }
 

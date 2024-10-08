@@ -5,6 +5,11 @@
 //   cnpj: string;
 // }
 
+export interface CustumerOrder {
+  getName(): string;
+  getIDN(): string;
+}
+
 export interface IndivudualCustumerProtocol {
   firstName: string;
   lastName: string;
