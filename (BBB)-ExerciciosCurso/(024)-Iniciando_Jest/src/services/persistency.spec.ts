@@ -7,9 +7,9 @@
 describe('TESTANDO ALGUMA COISA', () => {
   // it('descrição de teste (IT)', () => {
   it('should return one', () => {
-    const numer = 1;
+    const number = 1;
     // expect(numer).not.toBe(1);
-    expect(numer).toBe(1);
+    expect(number).toBe(1);
   });
 });
 
